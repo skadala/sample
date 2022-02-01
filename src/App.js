@@ -45,7 +45,7 @@ export default class App extends React.Component {
         <div>
           Send an SMS that includes
           <pre>
-            <code>https://objective-feynman-1d4a70.netlify.app/ #12345</code>
+            <code>@preprodportal.vodafoneplay.in #12345</code>
           </pre>
           at the last line to this phone.
           <pre>
