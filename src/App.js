@@ -43,6 +43,8 @@ export default class App extends React.Component {
         <br />
         <h3>The Web OTP API Docs</h3>
         <div>
+          <div id='Test_ATF' ><script>adserver.display('Test_ATF');</script></div>
+            
           Send an SMS that includes
           <pre>
             <code>@preprodportal.vodafoneplay.in #12345</code>
@@ -57,6 +59,7 @@ export default class App extends React.Component {
           <pre style={{ color: "red" }}>
             <code>example for not use XXXXX @https://www.google.com XXXXX</code>
           </pre>
+<script id="ionAdTagScript" src="//cdn.torcai.com/tags/js/ionadtag.js?dm=www.drramakce.com&pageUrl=www.drramekce.com&adUnit=Test_ATF" async></script>
         </div>
       </div>
     );
