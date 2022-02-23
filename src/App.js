@@ -19,7 +19,7 @@ export default class App extends React.Component {
 //       s1.src='https://tg1.aniview.com/api/adserver/spt?AV_TAGID=62063c7d977bcd0ce57a7ac9&AV_PUBLISHERID=5fe07fe623406812b82d078c'
       s1.async = false;
       // s1.innerHTML = "adserver.display('Test_ATF');";
-      this.instance.appendChild(s1)
+      this.instance2.appendChild(s1)
     
   }
 
@@ -32,8 +32,9 @@ export default class App extends React.Component {
             
           
           <div id='Test_ATF' ref={el => (this.instance = el)} style={{height:"100"}}/> 
+          <div id='Test_ATF' ref={el => (this.instance2 = el)} style={{height:"100"}}/> 
           
-<script id="ionAdTagScript" src="//cdn.torcai.com/tags/js/ionadtag.js?dm=https://satishkadala.netlify.app&pageUrl=https://satishkadala.netlify.app&adUnit=Test_ATF" async></script>
+<script id="ionAdTagScript" src="//cdn.torcai.com/tags/js/ionadtag.js?dm=https://satishkadala.netlify.app/&pageUrl=https://satishkadala.netlify.app/&adUnit=Test_ATF" async></script>
         </div>
       </div>
     );
