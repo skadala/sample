@@ -6,7 +6,7 @@ export default class App extends React.Component {
   };
 
   componentDidMount() {
-    const s = document.createElement('script');
+//     const s = document.createElement('script');
 //       s.type = 'text/javascript';
 //       s.id="AV62063c7d977bcd0ce57a7ac9"
 //       s.src='https://tg1.aniview.com/api/adserver/spt?AV_TAGID=62063c7d977bcd0ce57a7ac9&AV_PUBLISHERID=5fe07fe623406812b82d078c'
