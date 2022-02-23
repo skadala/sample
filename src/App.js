@@ -6,6 +6,13 @@ export default class App extends React.Component {
   };
 
   componentDidMount() {
+    const s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.id="AV62063c7d977bcd0ce57a7ac9"
+      s.src='https://tg1.aniview.com/api/adserver/spt?AV_TAGID=62063c7d977bcd0ce57a7ac9&AV_PUBLISHERID=5fe07fe623406812b82d078c'
+      s.async = true;
+      // s.innerHTML = "adserver.display('Test_ATF');";
+      this.instance.appendChild(s)
     if ("OTPCredential" in window) {
       console.log("supported webotp")
       const ac = new AbortController();
@@ -46,6 +53,7 @@ export default class App extends React.Component {
           <div id='Test_ATF' ><script>adserver.display('Test_ATF');</script></div>
             
           Send an SMS that includes
+          <div id='Test_ATF' ref={el => (this.instance = el)} style={{height:"100"}}/> 
           <pre>
             <code>@preprodportal.vodafoneplay.in #12345</code>
           </pre>
@@ -59,7 +67,7 @@ export default class App extends React.Component {
           <pre style={{ color: "red" }}>
             <code>example for not use XXXXX @https://www.google.com XXXXX</code>
           </pre>
-<script id="ionAdTagScript" src="//cdn.torcai.com/tags/js/ionadtag.js?dm=www.drramakce.com&pageUrl=www.drramekce.com&adUnit=Test_ATF" async></script>
+<script id="ionAdTagScript" src="//cdn.torcai.com/tags/js/ionadtag.js?dm=satishkadala.netlify.app&pageUrl=satishkadala.netlify.app&adUnit=Test_ATF" async></script>
         </div>
       </div>
     );
