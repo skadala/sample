@@ -20,13 +20,13 @@ export default class App extends React.Component {
 //       s1.async = false;
 //        s1.innerHTML = "adserver.display('Test_ATF');";
 //       this.instance.appendChild(s1)
-     const s2 = document.createElement('script');
-      s2.type = 'text/javascript';
-      s1.id="ionAdTagScript"
-      s2.src='//cdn.torcai.com/tags/js/ionadtag.js?dm=www.drramakce.com&pageUrl=www.drramekce.com&adUnit=Test_ATF'
-      s2.async = true;
-//        s1.innerHTML = "adserver.display('Test_ATF');";
-      this.instance2.appendChild(s1)
+//      const s2 = document.createElement('script');
+//       s2.type = 'text/javascript';
+//       s1.id="ionAdTagScript"
+//       s2.src='//cdn.torcai.com/tags/js/ionadtag.js?dm=www.drramakce.com&pageUrl=www.drramekce.com&adUnit=Test_ATF'
+//       s2.async = true;
+// //        s1.innerHTML = "adserver.display('Test_ATF');";
+//       this.instance2.appendChild(s1)
     
   }
 
@@ -34,15 +34,7 @@ export default class App extends React.Component {
     return (
       <div className="App">
         
-        <div>
-//           <div id='Test_ATF' ><script>adserver.display('Test_ATF');</script></div>
-            
-          
-//           <div id='Test_ATF' ref={el => (this.instance = el)} style={{height:"100"}}/> 
-          <div id='Test_ATF' ref={el => (this.instance2 = el)} style={{height:"100"}}/> 
-          
-// <script id="ionAdTagScript" src="//cdn.torcai.com/tags/js/ionadtag.js?dm=www.drramakce.com&pageUrl=www.drramekce.com&adUnit=Test_ATF" async></script>
-        </div>
+  Hi welcome to raect with aws cloud !!!
       </div>
     );
   }
