@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.header-menu{
+  background-color: #282c34;
+}
+.header-menu ul{
+display: flex;
+list-style: none;
+}
+.header-menu ul li{
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: large;
+}
+ul{
+  list-style: none;
+}
